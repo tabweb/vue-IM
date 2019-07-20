@@ -1,3 +1,26 @@
+# http://quchuchongfu.renrensousuo.com/
+# Compiled class file
+*.class
+# Log file
+*.log
+# BlueJ files
+*.ctxt
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/bin/
+/target/
+/.classpath
+/.project
+/.settings/
 .DS_Store
 dist/electron/*
 dist/web/*
@@ -8,4 +31,33 @@ npm-debug.log
 npm-debug.log.*
 thumbs.db
 !.gitkeep
-
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+test/unit/coverage
+test/e2e/reports
+selenium-debug.log
+package-lock.json
+.wepycache
+node_modules
+dist
+web
+yarn.lock
+*.iml
+.idea
+.ipr
+.iws
+*.diff
+*.patch
+*.bak
+.project
+.settings
+.*proj
+.svn/
+*.swp
+*.swo
+examples/dist/
+yarn-error.log
+.vscode
+.history
